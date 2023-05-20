@@ -1,1 +1,2 @@
 # NBSA
+This program trains a Naive Bayes Classifier, implemented myself, on a dataset of movie reviews to classify reviews as positive or negative. The performance of the classifier can be evaluated using the `evaluate` function. I have achieved an accuracy of 84.54% and F1-measure of 84.50%, though there is room for improvement. The dataset used was a CSV file called imdb_master.csv which contained the reviews, ground-truth labels, and training/test set they belong to. Thus, some modification to the code is needed to adapt to a different dataset. 
